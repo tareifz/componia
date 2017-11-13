@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.componia-window-title {
+    -webkit-app-region: drag;
+    -webkit-user-select: none;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    align-content: center;
+    height: 33px;
+}
+
+.componia-title-buttons {
+    -webkit-app-region: no-drag;
+    display: flex;
+    align-items: center;
+    z-index: 999;
+}
+
+.componia-title-text-wrapper {
+    display: flex;
+    flex-grow: 2;
+    justify-content: center;
+}
+
+.componia-title-text {
+    margin: auto 0;
+    align-self: center;
+    position: relative;
+    right: -48.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 0;
+    position: relative;
+    top: 5px;
+}
+
+.componia-close,
+.componia-minimize,
+.componia-maximize {
+    display: inline-block;
+    height: 20px;
+}
+
+.componia-close {
+    width: 45px;
+}
+
+.componia-close svg {
+    width: 8px;
+    height: 8px;
+    position: relative;
+    left: 18.5px;
+}
+
+.componia-maximize {
+    width: 25px;
+}
+
+.componia-maximize-icon {
+    display: inline-block;
+    width: 10px;
+    height: 8px;
+    position: relative;
+    left: 7.5px;
+    border-top: solid black 2px;
+    border-right: solid black 1px;
+    border-bottom: solid black 1px;
+    border-left: solid black 1px;
+}
+
+.componia-minimize {
+    width: 27px;
+}
+
+.componia-minimize-icon {
+    display: inline-block;
+    width: 8px;
+    height: 2px;
+    position: relative;
+    left: 9.5px;
+    border-bottom: solid black 2px;
+}

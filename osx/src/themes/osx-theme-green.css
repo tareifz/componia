@@ -1,0 +1,37 @@
+
+body {
+    background-color: rgb(23, 114, 82);
+    border: 1px solid rgb(5, 145, 98);
+}
+
+.componia-window-title {
+    background-color: rgb(5, 145, 98);
+}
+
+.componia-title-text {
+    color: rgb(0, 230, 142);
+}
+
+.componia-close {
+    background-color: rgb(249, 125, 104);
+}
+
+.componia-minimize {
+    background-color: rgb(251, 200, 78);
+}
+
+.componia-maximize {
+    background-color: rgb(67, 191, 88);
+}
+
+.componia-close:hover {
+    background-color: rgb(252, 93, 69);
+}
+
+.componia-minimize:hover {
+    background-color: rgb(236, 162, 2);
+}
+
+.componia-maximize:hover {
+    background-color: rgb(16, 173, 43);
+}
